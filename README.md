@@ -72,3 +72,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Extra notes
 Bootstrap 4.4
 jQuery 3.4
+
+run npm install react-router-dom for basic routing
+#reference 
+https://react-bootstrap.github.io/getting-started/introduction/
+npm install react-bootstrap bootstrap for bootstrap
