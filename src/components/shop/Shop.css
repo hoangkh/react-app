@@ -1,0 +1,17 @@
+/* Styles for Shop Component */
+#shop-page{
+    background-color:#f2f2f2;
+    height: 100%;
+    padding: 0em 7em;
+}
+.shop-page-header{
+    background-color: grey;
+}
+
+
+
+.color-refined, ul.size{
+    column-count: 2;
+}
+
+
