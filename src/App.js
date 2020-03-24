@@ -10,6 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Home from "./components/pages/HomePage";
 import About from "./components/pages/AboutPage";
+import NotFoundPage from "./components/pages/NotFoundPage";
+import UnderConstructionPage from "./components/pages/UnderConstructionPage";
+
 import MediaEntertain from "./components/media-entertain/Main";
 import Shop from "./components/shop/Shop";
 
@@ -42,8 +45,14 @@ export default function App() {
           <Route path="/shop">
             <Shop />
           </Route>
-          <Route path="/">
+          <Route path="/under-construction">
+            <UnderConstructionPage />
+          </Route>
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="*">
+            <NotFoundPage />
           </Route>
         </Switch>
     </Router>
