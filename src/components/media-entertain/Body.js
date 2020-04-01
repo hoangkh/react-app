@@ -2,8 +2,8 @@ import React from 'react';
 
 
 function Body() {
-    return <div id="shop-page-footer">
-      <h2>This is E-commerce Footer</h2>
+    return <div id="media-page-body">
+      <h2>This is media page body</h2>
       </div>;
   }
 

@@ -6,8 +6,7 @@ import Body from "./Body";
 import Footer from "./Footer";
 
 function MediaEntertain() {
-    return <div id="media-entertain-page">
-    Hello Media
+    return <div id="media-page">
       <Header />
       <Body />
       <Footer />

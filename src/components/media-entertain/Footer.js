@@ -2,12 +2,12 @@ import React from 'react';
 
 
 function Footer() {
-    return <div id="shop-page-footer">
+    return <div id="media-page-footer">
       <div className="row useful-links">
         <div className="col-6 list-links">
           <div className="row">
     
-            </div>
+          </div>
         </div>
         <div className="col-6">
             <div className="row">
@@ -15,11 +15,11 @@ function Footer() {
               <div className="col-6"><h3>Rating</h3></div>
             </div>
         </div>
-      </div>
+      </div>  
       <div className="row copy-rights">This is where copy rights
 
       </div>
-      </div>;
+    </div>;
   }
 
 export default Footer;
