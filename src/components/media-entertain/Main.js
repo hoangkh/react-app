@@ -14,5 +14,3 @@ function MediaEntertain() {
 }
 
 export default MediaEntertain;
-
-/* Inspired by: https://www.schuh.co.uk/mens/ */
