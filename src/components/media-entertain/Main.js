@@ -11,7 +11,7 @@ function MediaEntertain() {
       <Body />
       <Footer />
       </div>;
-  }
+}
 
 export default MediaEntertain;
 

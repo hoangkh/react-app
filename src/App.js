@@ -19,7 +19,7 @@ import Shop from "./components/shop/Shop";
 export default function App() {
   return (
     <Router>
-        <Navbar bg="light" expand="lg">
+        <Navbar id="main-nav" bg="light" expand="lg">
           <Link to="/" className="brand-name">React Playground</Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
