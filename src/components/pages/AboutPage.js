@@ -2,7 +2,7 @@ import React from 'react';
 import './Pages.css';
 
 function About() {
-    return <div id="about-page"><h2>This is a bout page</h2>
+    return <div id="about-page">
     <div className="grid-container">
       <div className="item1">Header</div>
       <div className="item2">Menu</div>
