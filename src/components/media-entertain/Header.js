@@ -4,19 +4,16 @@ import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 
 function Header() {
+  const menuItem = ['Genre', 'TV', 'Kids', 'Favrourite', 'My account']
     return <div id="media-page-header">
       <Navbar expand="lg">
         <Link to="/shop" className="brand-name">My Channel</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link className="menu-items" to="/shop">Genre</Link>
-            <Link className="menu-items" to="/shop">TV Series</Link>
-            <Link className="menu-items" to="/shop">Kids</Link>
-            <Link className="menu-items" to="/shop">Favorite</Link>
-            <Link className="menu-items" to="/shop">Brands</Link>
-            <Link className="menu-items" to="/shop">Sales</Link>
-            <Link className="menu-items" to="/shop">My basket</Link>
+            {menuItem.map((item, index) => (
+                <Link className="menu-items" to="/under-construction">{item}</Link>    
+              ))}
           </Nav>
           <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2" />

@@ -5,19 +5,16 @@ import {
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 function Header() {
+  const menuItem = ['Men', 'Woman', 'Kids', 'Accessories', 'Brands', 'Sales', 'My Basket'];
     return <div className="shop-page-header">
       <Navbar expand="lg">
         <Link to="/shop" className="brand-name">My Shop</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link className="menu-items" to="/under-construction">Men</Link>
-            <Link className="menu-items" to="/shop">Woman</Link>
-            <Link className="menu-items" to="/shop">Kids</Link>
-            <Link className="menu-items" to="/shop">Accessories</Link>
-            <Link className="menu-items" to="/shop">Brands</Link>
-            <Link className="menu-items" to="/shop">Sales</Link>
-            <Link className="menu-items" to="/shop">My basket</Link>
+            {menuItem.map((item, index) => (
+                <Link className="menu-items" to="/under-construction">{item}</Link>    
+              ))}
           </Nav>
           <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -25,7 +22,6 @@ function Header() {
             </Form>
         </Navbar.Collapse>
       </Navbar>
-  
       </div>;
   }
 
